@@ -22,6 +22,7 @@ export function initialization(): Script {
     )
 
     const spawnOrder = 0
+
     const updateSequential = [DebugLog(42), true]
 
     return {
